@@ -1,4 +1,4 @@
-# RISC V For Absolute idiots
+# RISC-V For Absolute idiots
 
 I have no clue what I'm doing, but lets build a RISC-V core off [this documentation](https://passlab.github.io/CSE564/notes/lecture08_RISCV_Impl.pdf).
 
