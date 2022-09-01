@@ -29,7 +29,7 @@ blocks below are straight from [slide 48](https://passlab.github.io/CSE564/notes
 ## MAIN OPEN QUESTIONS
 
 1. How to create realistic tests, load magic memory with risc-v compiled instructions? 
-  - use [these tests](git clone https://github.com/riscv/riscv-tests.git) somehow, compile, load ingto memory
+    - use [these tests](git clone https://github.com/riscv/riscv-tests.git) somehow, compile, load ingto memory
   
 ## Dependencies
   - [cocotb](https://docs.cocotb.org/en/stable/)
