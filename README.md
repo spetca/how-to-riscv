@@ -4,7 +4,31 @@ I have no clue what I'm doing, but lets build a RISC-V core off [this documentat
 
 ## TODO
 
+block straight from slide 48, may need ro reasses if needed for our goals
+
+| Thing | Status |
+| ----  | -----  |
+|Program Counter | done | 
+| PC Mux  | 50% | 
+| RegFile | 75% ? | 
+| Instruction Mem (or magic mem)| 0%|
+|ALU| 0%|
+| Op2sel Mux| 0%|
+| Op2Sel Mux| 0%|
+| JumpRegTargGen | 0% | 
+| BranchTargGen | 0%|
+| JumpTargGen | 0% |
+| IType Sign Extend| 0%|
+| SType Sign Extend | 0%| 
+| UType | 0%|
+|Decoder| 0%|
+|Reg File (last block on right)| 0%|
+| Data mem| 0%|
+
+
 ## OPEN QUESTIONS
+
+Lots rn...
   
 ## Dependencies
   - [cocotb](https://docs.cocotb.org/en/stable/)
