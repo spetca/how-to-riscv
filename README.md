@@ -1,10 +1,10 @@
 # RISC-V For Absolute idiots
 
-I have no clue what I'm doing, but lets build a RISC-V core off [this documentation](https://passlab.github.io/CSE564/notes/lecture08_RISCV_Impl.pdf).
+I have absolutely no clue what I'm doing, but lets build a RISC-V core off [this documentation](https://passlab.github.io/CSE564/notes/lecture08_RISCV_Impl.pdf). 
 
 ## TODO
 
-block straight from slide 48, may need ro reasses if needed for our goals
+blocks below are straight from [slide 48](https://passlab.github.io/CSE564/notes/lecture08_RISCV_Impl.pdf#page=48), may need to reasses if all of it is needed for our goals (what are the goals anyways?). May need to add various glue components. TBD. 
 
 | Thing | Status |
 | ----  | -----  |
@@ -26,9 +26,10 @@ block straight from slide 48, may need ro reasses if needed for our goals
 | Data mem| 0%|
 
 
-## OPEN QUESTIONS
+## MAIN OPEN QUESTIONS
 
-Lots rn...
+1. How to create realistic tests, load magic memory with risc-v compiled instructions? 
+  - use [these tests](git clone https://github.com/riscv/riscv-tests.git) somehow, compile, load ingto memory
   
 ## Dependencies
   - [cocotb](https://docs.cocotb.org/en/stable/)
